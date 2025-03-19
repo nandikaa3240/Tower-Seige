@@ -168,7 +168,7 @@ async function getBackgroundImage(){
    var hour = datetime.slice(11, 13);
    //console.log(hour);
 
-   if (hour >= 06 && hour <= 18) {
+   if (hour >= 6 && hour <= 18) {
      bg = "images/light.jpg";
    } else {
      bg = "images/dark.jpg";
